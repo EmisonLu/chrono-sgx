@@ -24,7 +24,7 @@ appveyor = { repository = "chronotope/chrono" }
 name = "chrono"
 
 [features]
-default = ["mesalock_sgx", "std"]
+default = ["mesalock_sgx", "std", "serde"]
 alloc = []
 std = ["mesalock_sgx"]
 clock = ["std"]
